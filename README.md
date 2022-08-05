@@ -22,7 +22,7 @@ This application uses Python, flask, MySQL, SQLAlchemy, and frontend JavaScript 
 This application is meant to be used as a social media platform for networking and sharing information.
 
 ## Screenshot
-[!Screenshot of the application's homepage]()
+<img src="./pythonNewsfeedScreenshot.png"  width="1200" height="auto" alt="Screenshot of the application's homepage">
 
 ## Questions
 

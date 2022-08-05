@@ -2,23 +2,13 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
   color: #333;
-}
-
-a {
-  text-decoration: none;
-  color: #225ca3;
-  font-weight: bold;
-  transition: color .1s;
-}
-
-a:hover {
-  color: #3486eb;
 }
 
 button {
@@ -27,7 +17,7 @@ button {
   padding: 1%;
   color: white;
   font-weight: bold;
-  transition: background-color .1s;
+  transition: background-color 0.1s;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -36,18 +26,15 @@ button:hover {
   background-color: #3486eb;
 }
 
-.post-list {
-  margin: 0;
-  padding: 0;
-}
-
-textarea, input {
-  padding: .5%;
+textarea,
+input {
+  padding: 0.5%;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   outline: none;
   border: 1px solid #3486eb;
 }
@@ -75,20 +62,73 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 3px solid #000;
   display: flex;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #225ca3;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 0 2%;
+  margin: 0;
 }
 
 header h1 {
   font-size: 1em;
 }
 
+header h1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+header h1 a:hover {
+  color: #e2e2e2;
+}
+
 main {
   flex: 1;
   padding: 2% 4%;
+}
+
+#logout {
+  color: white;
+}
+
+#logout:hover {
+  color: #e2e2e2;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+.nav-link:hover {
+  color: #e2e2e2;
+}
+
+.post-list {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+.regular-link {
+  text-decoration: none;
+  color: #225ca3;
+  font-weight: bold;
+  transition: color 0.1s;
+}
+
+.regular-link:hover {
+  color: #3486eb;
 }
 
 .btn-no-style {
@@ -100,13 +140,21 @@ main {
   color: #225ca3;
   font-size: 100%;
   font-weight: bold;
-  transition: color .1s;
+  transition: color 0.1s;
   margin-left: 16px;
 }
 
 .btn-no-style:hover {
   background: none;
   color: #3486eb;
+}
+
+.post-creation {
+  margin-top: 3rem;
+}
+
+.your-posts {
+  margin-bottom: 3rem;
 }
 
 .delete-post-btn {
@@ -118,6 +166,7 @@ main {
 }
 
 .post {
+  margin-top: 3rem;
   margin-bottom: 2%;
   line-height: 150%;
 }
@@ -131,24 +180,37 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+  text-decoration: none;
+  color: #225ca3;
+}
+
+.edit-link:hover {
+  color: #3486eb;
 }
 
 .upvote-btn {
   background-color: #197d0f;
-  transition: background-color .1s;
+  transition: background-color 0.1s;
 }
 
 .upvote-btn:hover {
   background-color: #1f9c13;
 }
 
+.edit-post {
+  margin-top: 3rem;
+}
+
 .comment-form {
   margin-bottom: 5%;
 }
 
+.comments {
+  margin-bottom: 3rem;
+}
+
 .comment {
   padding: 1%;
-  margin-bottom: 1%;
 }
 
 .comment:nth-child(odd) {
@@ -157,8 +219,8 @@ main {
 
 .comment .meta {
   font-size: 90%;
-  margin-bottom: .5%;
-  opacity: .6;
+  margin-bottom: 0.5%;
+  opacity: 0.6;
 }
 
 .new-post-form input {
@@ -169,10 +231,26 @@ main {
   margin-bottom: 5%;
 }
 
+.login-form {
+  margin-top: 3rem;
+}
+
+.signup-form {
+  margin-bottom: 3rem;
+}
+
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 3px solid #000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #225ca3;
+  color: white;
+  text-align: center;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  font-weight: bold;
 }

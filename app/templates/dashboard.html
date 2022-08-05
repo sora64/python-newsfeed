@@ -1,7 +1,7 @@
 {% extends "layout/main.html" %}
 
 {% block body %}
-<section>
+<section class="post-creation">
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
@@ -18,7 +18,7 @@
 </section>
 
 {% if posts|length > 0 %}
-<section>
+<section class="your-posts">
   <h2>Your Posts</h2>
   <ul>
     {% for post in posts %}

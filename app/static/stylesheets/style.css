@@ -116,7 +116,7 @@ main {
 
 .post-list {
   margin: 3rem;
-  padding: 0 0 0.25rem 0;
+  padding: 0;
 }
 
 .regular-link {
@@ -252,4 +252,5 @@ footer {
   padding: 0.5rem;
   font-size: 110%;
   font-weight: bold;
+  margin-top: 1rem;
 }

@@ -2,7 +2,7 @@
 
 ## Description
 
-This application uses Python, flask, MySQL, SQLAlchemy, and frontend JavaScript to provide users with a social media platform where they can create, update, comment on, and update posts containing links to the latest developments in tech, on a personal or public scale.
+This application uses Python, flask, Gunicorn, MySQL, SQLAlchemy, and frontend JavaScript to provide users with a social media platform where they can create, update, comment on, and update posts containing links to the latest developments in tech, on a personal or public scale.
 
 ## Table of Contents
 

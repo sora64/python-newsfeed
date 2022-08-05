@@ -115,7 +115,7 @@ main {
 }
 
 .post-list {
-  margin: 3rem 3rem 5rem 3rem;
+  margin: 2rem;
   padding: 0;
 }
 
@@ -253,3 +253,16 @@ footer {
   font-size: 110%;
   font-weight: bold;
 }
+
+
+@media screen and (max-width: 768px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  footer {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+} 

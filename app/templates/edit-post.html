@@ -4,7 +4,13 @@
   <h2>Edit Post</h2>
   <form class="edit-post-form">
     <div>
+      <label for="post-title">Title</label>
       <input name="post-title" type="text" value="{{post.title}}" />
+      <span>({{post.title}})</span>
+    </div>
+    <div>
+      <label for="post-url">Link</label>
+      <input name="post-url" type="text" value="{{post.post_url}}" />
       <span>({{post.post_url|format_url}})</span>
     </div>
     <div>

@@ -24,7 +24,7 @@ This application is meant to be used as a social media platform for networking a
 
 ## URL
 
-[Link to Deployed Website](https://phelps-python-newsfeed.herokuapp.com/)
+[Link to the Deployed Application](https://phelps-python-newsfeed.herokuapp.com/)
 
 ## Screenshot
 <img src="./pythonNewsfeedScreenshot.png"  width="1000" height="auto" alt="Screenshot of the application's homepage">

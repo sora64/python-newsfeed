@@ -8,6 +8,7 @@ This application uses Python, flask, Gunicorn, MySQL, SQLAlchemy, and frontend J
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [URL](#url)
 - [Screenshot](#screnshot)
 - [Questions](#questions)
 
@@ -20,6 +21,10 @@ This application uses Python, flask, Gunicorn, MySQL, SQLAlchemy, and frontend J
 ## Usage
 
 This application is meant to be used as a social media platform for networking and sharing information.
+
+## URL
+
+[Link to Deployed Website](https://phelps-python-newsfeed.herokuapp.com/)
 
 ## Screenshot
 <img src="./pythonNewsfeedScreenshot.png"  width="1000" height="auto" alt="Screenshot of the application's homepage">
